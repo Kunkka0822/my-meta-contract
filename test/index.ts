@@ -3,7 +3,6 @@ import { expect } from "chai";
 import { ethers } from "hardhat";
 import { deployContracts } from "./deploy";
 import { MMC, MMLand, MMMarket } from "../typechain";
-import { assert } from "console";
 
 let owner: SignerWithAddress;
 let addr1: SignerWithAddress;
